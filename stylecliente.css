@@ -1,0 +1,76 @@
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(240, 232, 232);
+        }
+
+        /* Estilo de header */
+        header {
+            padding: 5px;
+            text-align: center;
+            font-size: 35px;
+            color: rgb(255, 128, 153);
+            font-family: gabriola;
+        }
+
+        /* Estilo section*/
+        section {
+            position: relative;
+            left: 10px;
+            top: -50px;
+            padding: 30px;
+            height: 300px;
+        }
+
+        h2 {
+            color: rgb(255, 128, 153);
+            font-family: gabriola;
+            font-size: 55px;
+        }
+
+        dt {
+            font-size: 25px;
+            font-family: bahnschrift;
+        }
+
+        dd {
+            position: relative;
+            right: 20px;
+            font-size: 20px;
+            font-family: bahnschrift light;
+        }
+
+        p {
+            font-size: 30px;
+            font-family: bahnschrift;
+            color: black;
+        }
+
+        /* Estilo de footer */
+        footer {
+            position: relative;
+            top: 700px;
+            padding: 1%;
+            background-color: rgb(247, 213, 220);
+            text-align: center;
+            color: black;
+            font-family: bahnschrift light;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 600px) {
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .link {
+            color: rgb(255, 128, 153);
+            font-family: bahnschrift;
+            font-size: 30px;
+        }
+
+        .link2 {
+            color: rgb(255, 128, 153);
+        }

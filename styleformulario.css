@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 232, 232);
+    padding: 10px;
+}
+
+h2 {
+    position: relative;
+    top: -20px;
+    font-size: 50px;
+    color: rgb(255, 128, 153);
+    font-family: gabriola;
+}
+
+p {
+    position: relative;
+    top: -30px;
+    font-size: 35px;
+    color: rgb(255, 128, 153);
+    font-family: gabriola;
+}
+
+label {
+    position: relative;
+    top: -30px;
+    font-size: 18px;
+    font-family: bahnschrift light;
+}
+
+input {
+    position: relative;
+    top: -30px;
+    font-size: 18px;
+    font-family: bahnschrift light;
+}
